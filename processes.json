@@ -1,0 +1,14 @@
+[
+	{
+		"script": "index.js",
+		"name": "mdx",
+		"exec_mode": "fork",
+		"watch": true,
+		"env": {
+			"INTERVAL": 1000
+		},
+		"env_production": {
+			"INTERVAL": 60000
+		}
+	}
+]

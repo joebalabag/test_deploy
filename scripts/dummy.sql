@@ -1,0 +1,1 @@
+CALL table_helper('ams_journal', 'ams_journal');

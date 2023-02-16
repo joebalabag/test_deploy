@@ -1,0 +1,19 @@
+const Express = require('express');
+const router = Express.Router(); 
+const {{ controller }}Controller  = require(`${global.appController}/{{ controller }}Controller.test`);
+const {{ controller }} = new {{ controller }}Controller();
+
+
+//
+// <summary>
+// Please add summary to avoid duplicate routes with same function
+// Handle all response in route for function reuse
+// Please check sample for controllers for Class based module export (instead of function based export)
+// </summary>
+//
+router.get('/{{ route }}', async (req, res) => { 
+    
+    res.end();
+});
+
+module.exports = router;

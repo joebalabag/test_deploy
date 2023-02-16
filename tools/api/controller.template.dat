@@ -1,0 +1,9 @@
+class Controller{
+    constructor(){}
+
+    /*
+     *  Add controller functions here
+     */ 
+}
+
+module.exports = Controller
